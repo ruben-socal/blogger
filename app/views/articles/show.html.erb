@@ -4,7 +4,10 @@
   <% @article.tags.each do |tag| %>
     <%= link_to tag.name, tag_path(tag) %>	
   <% end %>
- 
+<p><% if @article.image.exists? %>
+      <%= image_tag @article.image.url %><br/>
+   <% end %>
+</p>
 </p>
 <p><%= @article.body %></p>
 <h3>Comments (<%= @article.comments.size %>)</h3>
