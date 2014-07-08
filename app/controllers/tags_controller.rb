@@ -1,4 +1,6 @@
 class TagsController < ApplicationController
+	before_filter :require_login, only: [:destroy]
+	
 	#Listing Articles by Tag
 	def index
 		@tags = Tag.all
