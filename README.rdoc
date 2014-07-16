@@ -1,8 +1,8 @@
 Project: Rails
-This is a Jumpstart Labs Blogger Tutorial
+
+This is from Jumpstart Labs Blogger Tutorial
 
 Create a simple blog system and learn the basics of Ruby on Rails including:
-
 Models, Views, and Controllers (MVC)
 Data Structures & Relationships
 Routing
